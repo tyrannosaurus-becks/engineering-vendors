@@ -1,0 +1,8 @@
+# IDEs
+.vscode
+
+# Dependencies
+vendor/
+
+# Confidential financial files
+fixtures/
