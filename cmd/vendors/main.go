@@ -35,7 +35,7 @@ func main() {
 			}
 			return nil
 		}); err != nil {
-		log.Println(err)
+		log.Fatal(err)
 	}
 	var unorderedVendors []string
 	for vendor := range vendors {
