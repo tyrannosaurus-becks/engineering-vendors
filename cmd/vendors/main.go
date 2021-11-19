@@ -42,8 +42,8 @@ func main() {
 		unorderedVendors = append(unorderedVendors, vendor)
 	}
 	sort.Strings(unorderedVendors)
-	for i, vendor := range unorderedVendors {
-		fmt.Printf("%d: %s\n", i, vendor)
+	for _, vendor := range unorderedVendors {
+		fmt.Println(vendor)
 	}
 }
 
